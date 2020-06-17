@@ -1,0 +1,23 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "aplikasi reactjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricky19-svg/Reactjs.git"
+  },
+  "keywords": [
+    "aplikasi",
+    "reactjs"
+  ],
+  "author": "Ricky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ricky19-svg/Reactjs/issues"
+  },
+  "homepage": "https://github.com/Ricky19-svg/Reactjs#readme"
+}
