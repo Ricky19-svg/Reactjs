@@ -1,5 +1,5 @@
 import React from 'react';
-import Parent from './Component/Class/Parent';
+import BoostrapComp from './Component/Class/BootstrapComp';
 //import Home from './Comonent/Fungsional/Home';
 //import Beranda from './Comonent/Class/Beranda';
 //import './App.css';
@@ -7,7 +7,7 @@ import Parent from './Component/Class/Parent';
 function App() {
   return (
     <div className="App">
-     <Parent/>
+     <BoostrapComp/>
    </div>
   );
 }
