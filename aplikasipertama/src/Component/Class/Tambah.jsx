@@ -95,4 +95,4 @@ class TambahComp extends PureComponent {
     }
 }
 
-export default TambahCom
+export default TambahComp
