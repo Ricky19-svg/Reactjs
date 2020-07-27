@@ -21,7 +21,9 @@ import ProductComp from './Component/Hooks/Functional/ProductComp';
 import HooksReducer from './Component/Hooks/Functional/HooksReducer';
 import Tagihan from './Component/Hooks/Functional/Tagihan';
 import Menu from './Component/Fungsional/Menu';
-import RegisterComp from './Component/RegisterComp';
+import LoginComp from './Component/Fungsional/LoginComp';
+import DaftarComp from './Component/Fungsional/DaftarComp';
+
 
 
 // import BootstrapComp from './Component/Class/BootstrapComp';
@@ -79,7 +81,9 @@ const App = () => {
         <NavbarComp />
         <keranjangContext.Provider value={{keranjangState: count, keranjangDispatch:dispatch}}>
         <switch>
-          <Route exact path="/" component={HomePage} />
+          <Route exact path="/" component={LoginComp} />
+          <Route exact path="/daftar" component={DaftarComp} />
+          <Route exact path="/homepage" component={HomePage} />
           <Route exact path="/about" component={About} />
           <Route exact path="/produk" component={ListComp} />
           <Route exact path="/produk/tambahproduk" component={TambahComp} />
@@ -91,7 +95,7 @@ const App = () => {
           <Route exact path="/reducer" component={HooksReducer} />
           <Route exact path="/tagihan" component={Tagihan} />
           <Route exact path="/Menu" component={Menu} />
-          <Route exact path="/register" component={RegisterComp} />
+          
 
       
 

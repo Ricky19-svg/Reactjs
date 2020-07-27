@@ -9,8 +9,9 @@ function HomePage() {
         <div>
             <Jumbotron>
             <div className="imageatas">
-                    <img src="https://cdn.pixabay.com/photo/2019/01/22/11/31/shark-3947987_960_720.png" alt="" />
+                   <center><img src="https://i.ibb.co/xFKnkWQ/logoikan.webp" alt="logoikan" /></center>
                     </div>
+                    
                 <h1 className="display-3">RR Fish Purwokerto</h1>
                 <p className="lead">Jual Berbagai Jenis Ikan Predator</p>
                 <hr className="my-2" />
