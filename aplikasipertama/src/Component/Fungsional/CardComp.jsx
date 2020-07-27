@@ -10,11 +10,11 @@ function CardComp(props) {
 
         <div>
             <Card>
-                <CardImg top width="100%" src="https://placeimg.com/640/480/tech" alt="Card image cap" />
+                <CardImg top width="100%" src="https://2.bp.blogspot.com/-yLxMUVBADqg/VEqx6j0vDZI/AAAAAAAAHgw/VoPaSQgb1_g/s1600/arowana%2Bwallpaper%2Bhd.jpg" alt="Card image cap" />
                 <CardBody>
                     <CardTitle><h3>{props.judul}</h3></CardTitle>
                     <CardSubtitle>{props.tanggal}</CardSubtitle>
-                    <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                    <CardText>Bagi beberapa pecinta ikan, jenis predator menjadi salah satu pilihan untuk dipelihara. Bentuk dan karakternya yang unik membuat beberapa orang kagum dengan ikan ini. Ada banyak sekali jenis ikan predator di dunia ini Aqua Friends. Mulai dari yang sudah punah alias purba, hingga jenis-jenis yang kekinian yang akhirnya dipelihara sebagai ikan hias. Sehingga banyak pecinta hewan yang mulai berlomba-lomba untuk mengoleksinya. </CardText>
                     <Button>
                         <Link to = {
                             {

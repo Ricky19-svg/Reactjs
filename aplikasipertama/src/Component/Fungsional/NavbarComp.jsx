@@ -24,8 +24,10 @@ const NavbarComp = (props) => {
     
     return (
         <div>
-            <Navbar color="light" light expand="md">
-            <NavbarBrand to="/">reactstrap</NavbarBrand>
+            <p class="bg-primary text-white"><marquee>Selamat Datang</marquee></p>
+            <Navbar color="blue" blue expand="md">
+            
+            <NavbarBrand to="/">RR Fish</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
@@ -35,23 +37,19 @@ const NavbarComp = (props) => {
                         <NavItem>
                         <NavLink to="/about" className="nav-link">About</NavLink>
                         </NavItem>
+                    
+
                         <NavItem>
-                        <NavLink to="/mahasiswa" className="nav-link">Mahasiswa</NavLink>
+                            <NavLink to="/produk" className="nav-link">Daftar Ikan</NavLink>
                         </NavItem>
                         <NavItem>
-                        <NavLink to="/kelas" className="nav-link">Class</NavLink>
+                            <NavLink to="/reducer" className="nav-link">Keranjang</NavLink>
                         </NavItem>
                         <NavItem>
-                        <NavLink to="/hooks" className="nav-link">Hook</NavLink>
+                            <NavLink to="/register" className="nav-link">Register</NavLink>
                         </NavItem>
                         <NavItem>
-                        <NavLink to="/useeffects" className="nav-link">Use Effects</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink to="/produk" className="nav-link">Produk</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink to="/reducer" className="nav-link">Reducer</NavLink>
+                            <NavLink to="login" className="nav-link">Login</NavLink>
                         </NavItem>
                     </Nav>
                     <NavbarText>
